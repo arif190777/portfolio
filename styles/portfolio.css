@@ -1,5 +1,10 @@
 header{
     background-color:hwb(25 95% 0%);
+    background: url(../images/developer.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+
 }
 *{
     margin: 0px;
@@ -13,7 +18,7 @@ font-family: "Open Sans", sans-serif;
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -47,3 +52,84 @@ nav{
     font-size: 20px;
     font-weight: bold;
   }
+  #banner{
+    margin: 46px 38px 0px 230px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .bannercontent h2{
+margin-bottom: 5px;
+color: #474747;
+font-weight: 600;
+font-size: 45px;
+  }
+  .bannercontent h1{
+    margin-bottom: 20px;
+    color:#181818 ;
+    font-size: 85px;
+    font-weight: bold;
+  }
+  .bannercontent p{
+    margin-bottom: 30px;
+    color: #757575; ;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+
+#banner .image{
+  max-width: 585px;
+  vertical-align: middle;
+}
+#about{
+  padding: 130px;
+}
+#about .aboutcontainer{
+  margin: 0% auto;
+  width: 71%;
+  max-width: 1140px;
+  padding: 131px 156px;
+  text-align: center;
+  background-color: #FFF8F3;
+}
+.sectionheading{
+  max-width: 827px;
+  text-align: center;
+}
+.sectionheading h2{
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.sectionheading p{
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+#about .aboutinfo{
+  display: flex;
+  justify-content: space-around;
+  
+}
+/* .aboutinfo p{ */
+  line-height: 30px;
+  font-size: 35px;
+  color: #757575;
+}
+/* .aboutinfo h4{ */
+  line-height: 20px;
+  font-size: 35px;
+  color: #757575;
+}
